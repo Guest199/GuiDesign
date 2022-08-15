@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:windowSoftInputMode="adjustResize" >
+
+    <LinearLayout
+        android:id="@+id/ll_zone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/selected_row"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="@dimen/size_small_4" >
+
+        <TextView
+            android:id="@+id/tv_header_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingRight="5dp"
+            android:maxLines="1"
+            android:textSize="@dimen/size_medium_1"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:id="@+id/tv_header_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:textSize="@dimen/size_medium_1"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:id="@+id/tv_header_begin_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:textSize="@dimen/size_medium_1"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:id="@+id/tv_header_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:textSize="@dimen/size_medium_1"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:id="@+id/tv_header_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:textSize="@dimen/size_medium_1"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:id="@+id/tv_extra_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:textSize="@dimen/size_medium_1"
+            android:layout_weight="0.2"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ll_settings"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1" />
+
+    <LinearLayout
+        android:id="@+id/lv_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/bt_cancel"
+            style="@style/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_medium_6"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/size_small_3"
+            android:layout_marginRight="@dimen/size_small_3"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/cancel"
+            android:fontFamily="@font/assistant_bold"
+            android:text="@string/Cancel"
+            android:textSize="@dimen/size_medium_2" />
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_medium_6"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/size_small_3"
+            android:layout_marginRight="@dimen/size_small_3"
+            android:drawableLeft="@drawable/checkmark"
+            android:text="@string/save_changes"
+
+            android:textSize="@dimen/size_medium_2"
+            android:layout_weight="0.5"
+            style="@style/button_blue"
+            />
+    </LinearLayout>
+
+</LinearLayout>

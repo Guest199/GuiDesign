@@ -1,0 +1,64 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* FutronicSdk.iml
+* java\
+* java\com\
+* java\com\futronictech\
+* java\com\futronictech\SDKHelper\
+* java\com\futronictech\SDKHelper\EnrollmentState.java
+* java\com\futronictech\SDKHelper\FTR_PROGRESS.java
+* java\com\futronictech\SDKHelper\FarnValues.java
+* java\com\futronictech\SDKHelper\FtrIdentifyRecord.java
+* java\com\futronictech\SDKHelper\FtrIdentifyResult.java
+* java\com\futronictech\SDKHelper\FutronicEnrollment.java
+* java\com\futronictech\SDKHelper\FutronicException.java
+* java\com\futronictech\SDKHelper\FutronicIdentification.java
+* java\com\futronictech\SDKHelper\FutronicSdkBase.java
+* java\com\futronictech\SDKHelper\FutronicVerification.java
+* java\com\futronictech\SDKHelper\ICallBack.java
+* java\com\futronictech\SDKHelper\IEnrollmentCallBack.java
+* java\com\futronictech\SDKHelper\IIdentificationCallBack.java
+* java\com\futronictech\SDKHelper\IVerificationCallBack.java
+* java\com\futronictech\SDKHelper\UsbDeviceDataExchangeImpl.java
+* java\com\futronictech\SDKHelper\VersionCompatible.java
+* jni\
+* jni\armeabi-v7a\
+* jni\armeabi-v7a\libftrSDKAndroidJni.so
+* jni\armeabi-v7a\libftrScanAPI.so
+* jni\armeabi-v7a\libftrapi.so
+* jni\armeabi-v7a\libusb-1.0.so
+* jni\armeabi\
+* jni\armeabi\libftrSDKAndroidJni.so
+* jni\armeabi\libftrScanAPI.so
+* jni\armeabi\libftrapi.so
+* jni\armeabi\libusb-1.0.so
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => futronicSdk\src\main\AndroidManifest.xml
+* res\ => futronicSdk\src\main\res\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

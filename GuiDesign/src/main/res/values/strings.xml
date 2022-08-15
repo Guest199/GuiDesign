@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Mikve App String -->
+    <string name="App_name">Mikve System</string>
+    <string name="To_enter">Welcome\n Please enter </string>
+    <string name="Price_normal">Entry Price:</string>
+    <string name="Payment_details">Payment details</string>
+    <string name="Price_month">Monthly Price:</string>
+    <string name="Price_total">Total: </string>
+    <string name="move_to_self_charger">Add Value</string>
+    <string name="Pay_debt">Pay debt</string>
+    <string name="More">Options</string>
+    <string name="self_charge_mode">Add Value Mode</string>
+    <string name="Fill_up_mode">Fill up mode</string>
+    <string name="Total_paid">Total paid: </string>
+    <string name="on_card">On card: </string>
+    <string name="Expired_on">Expire on: %s</string>
+    <string name="to_start_show_card">Tap card to add value</string>
+    <string name="Please_present_parent_card">Please present parent card</string>
+    <string name="Please_present_card_in_debt">Please present card in debt</string>
+    <string name="mode_open">Now open</string>
+    <string name="mode_close">Now closed,\n have a nice day</string>
+    <string name="mode_vip_card">Now closed,\n Staff only</string>
+
+    <string name="Custom_entry_accepts">Custom entry, Accepts:\n</string>
+
+    <string name="mode_custom_cc_or_cash">To enter:\n* Pay cash or credit</string>
+    <string name="mode_homeless">To enter:\n *Tap your card and pay cash</string>
+    <string name="mode_custom_nothing">The mikve is closed, please return in open times</string>
+
+    <string name="Card_balance" formatted="false">Card balance: %s</string>
+
+    <string name="Fill_son">Pay for child</string>
+    <string name="Buy_card">New card</string>
+    <string name="Fill_up">Fill up</string>
+
+    <!-- System Msg -->
+    <string name="preparing_params">Preparing System Parameters</string>
+    <string name="preparing_mode_zone">Preparing Mode Zone table</string>
+    <string name="preparing_price_zone">Preparing Price Zone table</string>
+    <string name="upgrading_firmware">Upgrading firmware\nPlease wait!</string>
+    <string name="upgrading_">Upgrading..</string>
+    <string name="upgrading_failed">Upgrad process failed</string>
+
+
+    <!-- maybe not in use -->
+    <string name="to_pay">Payment due:</string>
+    <string name="mode">Mode</string>
+    <string name="bill_types_header">Bill types allowed for use</string>
+    <string name="bill_types_choose">Please choose bill types allowed to use</string>
+    <string name="type">Type</string>
+
+    <string name="price">Price</string>
+
+    <!-- PriceZoneList -->
+<!--    <string name="name">Name</string>-->
+    <string name="Days">Days</string>
+    <string name="Begin_time">Begin Time</string>
+    <string name="End_time">End Time</string>
+
+    <!-- Messages -->
+    <string name="thank_you">Thank you</string>
+    <string name="Welcome">Welcome</string>
+    <!--<string name="card_number_no_limit" formatted="false">Member card numberErr: %d \n No expiration date</string>-->
+    <string name="No_change_please_enter" formatted="false">Please enter  \n Paid %s , not enough change</string>
+    <string name="No_change_donate" formatted="false">Please enter  \n Paid %s , \n Thank you for donating</string>
+    <string name="please_enter_change_returned" formatted="false">Please enter  \n Paid %s ,\n returned %s</string>
+
+    <string name="please_enter_no_change" formatted="false">Approved, Please Enter!  \n Paid %s </string>
+    <string name="card_validity">Expiration date</string>
+    <string name="card_value">Value left</string>
+    <string name="no_exp">No expiration date</string>
+    <string name="printing">Printing</string>
+    <string name="print_please_wait">Printing.. Please wait</string>
+    <string name="transaction_in_process">Another trasaction is in process</string>
+    <string name="restore_default">Restore Default</string>
+    <string name="has_been_restored_default">Success: The data has been restored to default</string>
+    <string name="has_not_been_restored_default">Failure: The data has NOT been restored to default</string>
+    <string name="process_canceled">Process has been canceled</string>
+    <string name="cancel_process">Cancel Process</string>
+    <string name="price_not_valid">Please insert valid price\nExample: 3 or 3.5</string>
+    <string name="input_error">Input error</string>
+    <string name="refill_cash_money">Refill cash money</string>
+    <string name="refill_cash_money_please_press_to_exit">Please fill cash money machine \n Press end to finish refilling</string>
+    <string name="loading_database">Loading database</string>
+    <string name="waiting_for_peripherals">Waiting for control board</string>
+
+
+    <!-- Settings Menu -->
+    <!--    <string name="insert_any_password">Please insert any password</string>-->
+<!--    <string name="incorrect_password">Password is incorrect</string>-->
+
+    <!-- Settings menu separators -->
+<!--    <string name="title_menu_manager_settings">Manager Settings</string>-->
+    <string name="Sum">Sum</string>
+
+    <!-- Keys -->
+    <string name="changes_saved">Changes were saved successfuly</string>
+    <string name="title_activity_mikve">MainActivity</string>
+    <string name="touch_to_cancel">Tap here to cancel</string>
+    <string name="Button_more_mask">Show btn more</string>
+    <!--    <string name="Custom">Custom</string>-->
+
+    <string name="not_enough_change">Please insert exact amount</string>
+    <string name="please_see_super">Please see super</string>
+    <string name="wait_for_server">Processing, please wait</string>
+    <string name="Display_card_only">Display card only</string>
+    <string name="No_child_ascribed">No child card associated</string>
+    <string name="No_debt_recorded">No debt recorded</string>
+    <string name="Fill_form">Fill form</string>
+    <string name="Not_supported">Not supported</string>
+    <string name="No_card_left">No card left</string>
+    <string name="System_offline">ystem offline, Please check connection or restart your network devices</string>
+
+    <string name="Refund_accepted">Card refund accepted</string>
+<!--    <string name="set_date">Set Date</string>-->
+    <string name="paid_by_credit_card">Paid by credit:</string>
+
+    <string name="card_has">Card balance:</string>
+    <string name="refilled">Refilled</string>
+    <string name="Donation">Donation</string>
+    <string name="Take_card">Take card</string>
+    <string name="Debt_paid">Debt paid</string>
+    <string name="Debt_settled">Debt settled</string>
+    <string name="entry_mode_title">Entry Mode</string>
+    <string name="please_set_the_price_for_credit">Please set price for credit card</string>
+    <string name="Set_charge_limit">Set charge limit</string>
+    <!--<string name="payed_and_left_formatted" formatted="false">Payed %s\nPlease pay at least %s</string>-->
+    <string name="vip_card_please_enter">VIP card, Please enter!</string>
+    <string name="no_change_save_on_card">Not enough change,The change will be saved on the card</string>
+    <string name="unrecognized_fingerprint">Unrecognized fingerprint,Try again</string>
+    <string name="default_friendly_name">Mikve</string>
+    <string name="Insert_time">Insert time</string>
+    <string name="Insert_preformed_by">Last insert preformed by</string>
+    <string name="Just_entered">Just entered</string>
+    <string name="Open_menu_mode">Menu opening mode</string>
+    <string name="Credit_commission_entry">Commission for credit entry</string>
+    <string name="Credit_commission_self_charge">Commission for credit charging</string>
+    <string name="Entry_price">Entry Price</string>
+    <string name="Bit_mask">Bit mask EM</string>
+    <string name="Cellphone">Cellphone</string>
+    <string name="Minimum_cash_charge_price">Minimum cash charge</string>
+    <string name="Allowed_mifare_mask">Allowed mifare mask</string>
+    <string name="Num_of_receipts">Number of receipts to print</string>
+    <string name="Server_enable">Work online</string>
+    <string name="Online">Online</string>
+    <!--    <string name="settings_sw">SW Settings</string>-->
+<!--    <string name="settings_hardware">Hardware Settings</string>-->
+<!--    <string name="settings_debug">DEBUG settings</string>-->
+<!--    <string name="settings_printer">Printer Settings</string>-->
+<!--    <string name="settings_payment">Payment Settings</string>-->
+<!--    <string name="settings_cashless">Cashless Settings</string>-->
+<!--    <string name="settings_general">General Settings</string>-->
+
+    <string name="Paid">Paid:</string>
+    <string name="Cards">Cards</string>
+    <string name="Spread_card_on_network" translatable="false">Card Spread</string>
+
+    <string name="System_params">System parameters</string>
+
+    <string name="transactionNumber">Transactions Number</string>
+    <string name="cashCounter">Total Paid By Cash</string>
+    <string name="entryByCashCounter">Total Entries By Cash</string>
+    <string name="cashlessCounter">Total Paid Cashless</string>
+    <string name="entryByCashlessCounter">Total Entries Cashless</string>
+    <string name="mscCashCounter">Total Self charged</string>
+    <string name="entryMscCashCounter">Total entries by cash card</string>
+    <string name="entryMscMemberCounter">Total entries by member card</string>
+    <string name="entryMscVipCounter">Total entries by VIP card</string>
+    <string name="coinsInCashBox">Coins In Cash Box</string>
+    <string name="coinsInTubes">Coins In Tubes</string>
+    <string name="coinsInTubesCalc">Coins In Tubes calc</string>
+    <string name="refilledCoinsInTubes">Refilled Coins In Tubes</string>
+    <string name="billsInBillValidator">Bill In Bill Validator</string>
+    <string name="Cnt_sms">Cnt sms</string>
+    <string name="System_mode">System mode</string>
+    <string name="Language">Language</string>
+    <string name="Orientation">Orientation</string>
+    <string name="Shabbat_info">Shabbat info</string>
+    <string name="Cash_fillup">Cash fillup</string>
+    <string name="Mifare_write_mode">Mifare write mode</string>
+    <string name="Save_logs">Save logs</string>
+    <string name="Allowed_bill_types">Allowed bill types</string>
+    <string name="Calendar_type">Calendar type</string>
+    <string name="Coin_validator_values">Coin validator values</string>
+    <string name="Attend_limit">Attend limit</string>
+    <string name="Command_set" translatable="false">Command set</string>
+    <string name="Copy_cards">Copy cards</string>
+    <string name="Enroll_finger">Enroll finger</string>
+    <string name="Start_enrollment">Start enroll</string>
+    <string name="Counters">Counters</string>
+    <string name="Credit_card_service">Credit card service</string>
+    <string name="Credit_card_service_client_password">Credit card service client password</string>
+    <string name="Date">Date</string>
+    <string name="Db_index" translatable="false">DB index</string>
+    <string name="Default">Default</string>
+    <string name="Dest_ip" translatable="false">Destination IP</string>
+    <string name="Dest_port" translatable="false">Destination Port</string>
+    <string name="Dhcp" translatable="false">DHCP</string>
+    <string name="Recycler" translatable="false">Recycler</string>
+    <string name="AntiPassBack" translatable="false">Anti pass back</string>
+    <string name="Direction">Direction</string>
+    <string name="Erev_hag_price">Erev Yom Tov</string>
+    <string name="Friday_afternoon_price">Erev Shabbos</string>
+    <string name="Friday_afternoon_time">Erev start time</string>
+    <string name="Gate_feedback_timeout">Gate feedback timeout</string>
+    <string name="Gateway_ip" translatable="false">Gateway ip</string>
+    <string name="Hour_delta">Hour delta</string>
+    <string name="Initiate_cards">Initiate cards</string>
+    <string name="Ip" translatable="false">IP</string>
+    <string name="Last_validity_extra_days">Last validity extra days</string>
+    <string name="Manager_password">Manager password</string>
+    <string name="Member_monthly_price">Member monthly price</string>
+    <string name="Mode_zone">Mode zone</string>
+    <string name="Price_zone">Price zone</string>
+    <string name="Printer_enable">Printer enable</string>
+    <string name="Printer_type">Printer type</string>
+    <string name="Receipt_info">Receipt info</string>
+    <string name="Finger_device">Finger device</string>
+    <string name="Finger_precision">Finger precision(1-6)</string>
+    <string name="Finger_min">Finger minimum result(1-6)</string>
+    <string name="Subnet_mask" translatable="false">Subnet Mask</string>
+    <string name="System_id">System id</string>
+    <string name="Technician_password">Technician password</string>
+    <string name="Terminal_id">Terminal id</string>
+    <string name="Terminal_name">Terminal name</string>
+    <string name="Time">Time</string>
+    <string name="Logo">LOGO</string>
+    <string name="Rev" translatable="false" >Rev</string>
+
+    <string name="show_card_to_change">Please tap card to change or set cards range</string>
+    <string name="choose_cards_range">Choose cards range</string>
+    <string name="cards_to">Up to:</string>
+    <string name="cards_from">From card:</string>
+    <string name="Card_type">Cards type</string>
+    <string name="ok_range">OK cards range</string>
+    <string name="card_number_with_number" formatted="false">Number: %d, Type: %s</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="next_card">next card</string>
+
+    <string name="Copy_card_remark">To copy this information to another card please place one card at a time on the reader for a full second</string>
+
+    <string name="Restrict_group">Restrict group</string>
+
+    <string name="Entry_hours">Entry hours</string>
+    <string name="Discount_surcharge">Discount Surcharge</string>
+
+    <string name="Entries">Entries</string>
+    <string name="Friday">Friday</string>
+    <string name="Month">Month</string>
+
+    <string name="Amount">Amount</string>
+<!--    <string name="Percent">Percent</string>-->
+
+    <string name="User">User</string>
+
+    <string name="Please_select_child">Please select child</string>
+
+    <string name="First_name">First name</string>
+    <string name="Last_name">Last name</string>
+
+    <string name="Price_selected" >Price selected</string>
+    <string name="Proceed_with_charge">Proceed with charge?</string>
+    <string name="Card_has_debt_of"  formatted="false">Card has debt of %s</string>
+    <string name="Limit_set_to"  formatted="false">Limit set to %s</string>
+
+    <string name="Receipt">Receipt</string>
+    <string name="Paid_by">Paid by</string>
+    <string name="Change">Change</string>
+    <string name="Before">Before</string>
+    <string name="After">After</string>
+    <string name="Fill">Fill</string>
+    <string name="Returned">Returned</string>
+    <string name="Already_registered">Already registered</string>
+    <string name="Passport">Passport</string>
+    <string name="Save_change_on_card">Save exceeding funds to card</string>
+    <string name="Extra_towels">Extra towels</string>
+    <string name="Extra_towels_btn">Extra \n towels</string>
+    <string name="Year_discount">year discount</string>
+    <string name="Keep_change">Keep change</string>
+
+    <string name="Max_change">Max change allowed</string>
+    <string name="Value_added"  >Value added</string>
+    <string name="Next_entry_on"  >Next entry on</string>
+    <string name="Menu_set_to_long_click"  >Menu set to long click</string>
+    <string name="Img_fail_import"  >Img fail import</string>
+    <string name="Second_finger" >Second finger</string>
+    <string name="Third_finger" >Third finger</string>
+    <string name="Limit_charge">Limit charge</string>
+
+    <string name="Uuid" translatable="false">Uuid</string>
+
+    <string name="English"   translatable="false">English</string>
+    <string name="Hebrew"    translatable="false">עברית</string>
+    <string name="Yiddish"   translatable="false">אידיש</string>
+    <string name="set_wiegand"    translatable="false">Set wiegand</string>
+    <string name="set_j13"        translatable="false">Set j13</string>
+    <string name="Max_charge_exceed" translatable="false">Max charge allowed is $200.00</string>
+    <string name="set_read_mifare_block" translatable="false">Set read mifare block</string>
+    <string name="Remark_commission_formatted" formatted="false">Using a Credit/Debit Card will add a %s convenience charge</string>
+    <string name="Remark_selfcharge" translatable="false">Remark selfcharge</string>
+    <string name="UseGPC"           translatable="false"   >Use GPC</string>
+    <string name="GateOutput"       translatable="false"   >Gate output</string>
+    <string name="MdbOutput"       translatable="false"   >MDB output</string>
+    <string name="use_nfc"          translatable="false" >use nfc</string>
+    <string name="gpc_serial"       translatable="false" >gpc card read</string>
+    <string name="empty_register_complete"  translatable="false" >ריקון קופה בוצע בהצלחה</string>
+    <string name="Bill_process">Processing bill \n please wait..</string>
+    <string name="Load_card_soon">Load Card Soon</string>
+
+
+    <!-- TextViewDialog -->
+
+    <string name="settings_general">General Settings</string>
+    <string name="settings_payment">Payment Settings</string>
+    <string name="pref_cards">Cards</string>
+    <string name="settings_sw">SW Settings</string>
+    <string name="pref_network_setting">Network Settings</string>
+    <string name="settings_hardware">Hardware Settings</string>
+    <string name="settings_debug">DEBUG settings</string>
+    <string name="settings_printer">Printer Settings</string>
+    <string name="settings_cashless">Cashless Settings</string>
+    <string name="Tech_settings">Tech settings</string>
+
+    <string name="title_menu_manager_settings">Manager Settings</string>
+    <string name="title_menu_technician_settings">Tech Settings</string>
+    <string name="title_menu_exit">Exit</string>
+
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="exit_from_app">Exit from app</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="OK">OK</string>
+    <!--<string name="please_fill_from_to_card_numbers">Please fill from to card numbers</string>-->
+    <string name="card_recorded_please_display_card_for_copying">Card recorded\nPlease display card for copying</string>
+    <string name="please_display_original_card">Please display original card</string>
+    <string name="can_not_copy_to_original_card">Can not copy to original card</string>
+    <string name="initiate_cards">Initiate Cards</string>
+    <string name="copy_cards">Copy Cards</string>
+    <string name="update_cards">Update Cards</string>
+    <string name="show_card_to_initiate">Please tap card to initiate</string>
+    <string name="show_card_to_copy">Please tap card to copy</string>
+    <string name="Identify_by_card">Please tap card to identify</string>
+    <string name="Procceed_without_card">Procceed without card</string>
+    <string name="Discount">Discount</string>
+    <string name="Surcharge">Surcharge</string>
+    <string name="card_initiated_successfuly">Card initiated successfully</string>
+    <string name="card_copied_successfuly">Card copied successfully</string>
+    <string name="card_copied_failed">Card copied failed</string>
+    <string name="card_initiated_failed">Card read failed, please try again</string>
+    <string name="card_changes_saved">Changes were made in that card will be shown after using card again</string>
+    <string name="system_offline_call_superviser">No communication to control board \n check cable and power off entire system for 2 minutes</string>
+    <string name="show_card_to_save">Tap card again to save</string>
+
+    <!--move to progect-->
+    <string name="CARD_TYPE_PROPERTY">Card type</string>
+    <string name="CARD_NUMBER_PROPERTY">Card number</string>
+    <string name="CARD_VALIDITY_PROPERTY">Card validity</string>
+    <string name="Daily_entries">Daily entries</string>
+    <string name="LAST_VALIDITY_DATE_PROPERTY">Last validity date</string>
+    <string name="ADD_TO_CREDIT_VALUE_PROPERTY">Add credit to card</string>
+    <string name="SET_CREDIT_VALUE_PROPERTY">Set credit value</string>
+    <string name="START_VALIDITY_DATE_PROPERTY">Start validity date</string>
+    <string name="Reentry">Reentry</string>
+    <string name="ENTRY_HOURS_LIMIT_PROPERTY">Entry hours limit?</string>
+    <string name="ADD_MONTH_PROPERTY">Add month</string>
+    <string name="DISCOUNT_TYPE">Discount type</string>
+    <string name="Currency">Currency</string>
+    <string name="Percent">Percent</string>
+    <string name="Discount_cents">Discount value</string>
+    <string name="Discount_percent">Discount precent</string>
+    <string name="Entries_limit">Entries limit</string>
+    <string name="Monthly_bonus">Monthly bonus</string>
+    <string name="Entries_friday">Entries friday</string>
+    <string name="Entry_time_start">Start hour</string>
+    <string name="Entry_time_end">End hour</string>
+    <string name="ENTRIES_HOURS_FRIDAY_START">Friday start hour</string>
+    <string name="ENTRIES_HOURS_FRIDAY_END">Friday end hour</string>
+    <string name="LAST_VALIDITY_IS_LIMITED">Date limit?</string>
+
+
+    <!-- Settings Menu -->
+    <!--<string name="change_settings_password">Change settings</string>-->
+    <string name="Please_insert_password">Please insert password:</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="insert_any_password">Insert any password</string>
+
+    <!-- mifare messages -->
+    <string name="mifate_please_remove_card">Please remove card</string>
+    <string name="mifate_please_place_card">Please place card again\nto complete the process</string>
+
+    <!-- mifareVndChecker messages -->
+
+    <!-- System messages -->
+    <string name="upgrade_in_progress">Upgrade in progress</string>
+    <string name="Please_locate_finger">Please press \n finger firmly</string>
+    <string name="Processing">Processing</string>
+    <string name="upgrade_progress_complete" formatted="false">Upgarde in progress:  %s complete, \n Please do not use the machine and do not disconnect from power</string>
+
+
+    <!-- general messages -->
+    <string name="System_msg">System messege</string>
+    <string name="attention">Attention</string>
+    <string name="currency_sign_israel">₪</string>
+    <string name="card_number_already_exists">Card numberErr is already exists</string>
+    <string name="card_number_with_number2" formatted="false">%s Number: %d, Type: %s</string>
+    <string name="no_such_card_on_sys">No such card on system</string>
+    <string name="name">Name</string>
+    <string name="number">Num</string>
+    <string name="days_set">Choose days:</string>
+    <string name="set_time">Set time</string>
+    <string name="reset_and_print">Reset and print</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="long_click">Long click</string>
+    <string name="gregorian_from_head">Gregorian From Head</string>
+    <string name="hebrew_from_head">Hebrew From Head</string>
+    <string name="gregorian_from_today">Gregorian From Today</string>
+    <string name="hebrew_from_today">Hebrew From Today</string>
+    <string name="hebrew_from_head_strict">Hebrew From Head STRICT</string>
+    <string name="Member">Member</string>
+    <string name="Special">Special</string>
+    <string name="Value">Cash card</string>
+    <string name="VIP">VIP</string>
+    <string name="set_value">Set Value</string>
+    <string name="set_date">Set Date</string>
+
+    <string name="Cash">Cash</string>
+    <string name="Credit">Credit</string>
+
+    <!--<string name="value">Value</string>-->
+    <string name="upgrading_software">Upgrading software\nPlease wait!</string>
+    <string name="set_system_id">Set system id</string>
+    <string name="set_printer_type">Set printer type</string>
+    <string name="set_printer_boundrate">Set printer boundrate</string>
+    <string name="set_bill_enabled">Set bill enabled</string>
+    <string name="set_coin_enabled">Set coin enabled</string>
+    <!--<string name="set_cashless_enabled">Set cashless enabled</string>-->
+    <string name="set_coin_values">Set coin values</string>
+    <string name="set_allow_bills">Set allow bills</string>
+    <string name="error_on_setting_clock">Error on setting clock</string>
+    <!--<string name="title_menu_settings">Settings</string>-->
+    <!--<string name="title_menu_counters">Counters</string>-->
+    <string name="Refill_cash_money">Refill cash money</string>
+    <string name="process_timeout_warning">Please continue your actions, or the process will be canceled</string>
+    <string name="transaction_canceled">Transaction canceled</string>
+    <!--<string name="error_on_setting_cash_source">Error on setting cash source</string>-->
+
+    <string name="counter_name">Counter Name</string>
+    <string name="counter_value">Value</string>
+    <string name="back">Back</string>
+    <string name="title_exit">Exit</string>
+    <string name="save">Save</string>
+
+    <string name="smart_card">Smart card</string>
+    <string name="magnetic">Magnetic</string>
+    <string name="em_card">Em card</string>
+    <string name="finger">Finger</string>
+    <string name="Debt">Debt</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="ip">IP</string>
+
+    <string name="Place_finger">Touch the sensor with your finger and remove it after the beep</string>
+    <string name="Remove_finger">Please remove your finger</string>
+    <string name="Finger_enrolled">Finger enrolled successfully</string>
+
+    <string name="Finger_low_quality">Finger low quality, got : </string>
+    <string name="Finger_enroll_error">Finger enroll error</string>
+    <string name="Finger_usb_error">Finger device not reponding ,\n restarting ...</string>
+
+    <string name="Please_check_input">Please check input</string>
+    <string name="User_in_process">This card is in process elsewhere </string>
+
+    <string name="Next_entry">Next entry</string>
+    <!--<string name="Please_focus_finger">Please focus finger</string>-->
+
+    <string name="Normal">Normal</string>
+    <string name="Open">Open</string>
+    <string name="Closed">Closed</string>
+    <string name="Vip_only">Vip only</string>
+    <string name="Homeless">Homeless</string>
+    <string name="Custom">Custom</string>
+    <!--<string name="Extra">Extra</string>-->
+    <string name="Cancel">Cancel</string>
+    <string name="Card">Card</string>
+
+    <string name="Reset_gpc">Updating service,\n please wait...</string>
+    <string name="Returning_change">Returning change,\n please wait...</string>
+    <string name="Card_reader_not_responding">Card reader not responding</string>
+    <string name="restart_app">Restart App</string>
+    <string name="system_will_restart">The system will restart after exit settings screen</string>
+    <string name="finger_unrecognized">Finger detected, \n please press firmly</string>
+    <string name="Credit_currently_not_allowed"  translatable="false" >Credit currently not allowed</string>
+
+    <string name="Limitation_of_liability" translatable="false">LIMITATION OF LIABILITY. IN NO EVENT SHALL VENDOR OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, LOST PROFITS, BUSINESS INTERRUPTION OR LOST INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF VENDOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</string>
+    <string name="Wrong_fingerprint_found" translatable="false">Wrong fingerprint found</string>
+    <string name="Select_months_to_fill">Select months to fill</string>
+    <string name="Pay_for_year">Pay for year</string>
+<string name="Start_credit_read"  translatable="false" >Verifying credit,\n please wait...</string>
+<string name="Add_value_to_cashcard"  translatable="false" >To add value insert cash or swipe card and select amount</string>
+    <string name="Credit_try_again"  translatable="false" >Credit is busy, please try again</string>
+    <string name="Set_wifi" translatable="false">Set WIFI </string>
+    <string name="Wifi_is_off" translatable="false">Wifi is off</string>
+    <string name="Wifi_not_detected" translatable="false">Wifi not_detected</string>
+    <string name="Wifi_connecting" translatable="false">Wifi connecting</string>
+    <string name="Wifi_connect_success" translatable="false">Wifi connect success</string>
+    <string name="Wifi_connect_error" translatable="false">Wifi connect error</string>
+    <string name="Enter_preshared_key" translatable="false">Please enter pre shared key </string>
+
+
+
+
+</resources>
+

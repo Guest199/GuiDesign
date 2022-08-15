@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/size_small_2"
+        android:paddingLeft="@dimen/size_small_2"
+        android:paddingRight="@dimen/size_small_2"
+        android:paddingTop="@dimen/size_small_2"
+        android:background="@drawable/pink_bcgnd">
+
+        <ImageView
+            android:id="@+id/tv_splash_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/otot_splash"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/prgbr_loading" />
+
+        <ProgressBar
+            android:id="@+id/prgbr_loading"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_above="@+id/tv_rev_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_small_4"
+            android:layout_marginBottom="@dimen/size_small_4" />
+
+        <TextView
+            android:id="@+id/tv_waiting_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ממתין לעליית המערכת"
+            android:textSize="@dimen/size_medium_2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp" />
+
+        <TextView
+            android:id="@+id/tv_rev_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מספר גרסה"
+            android:textSize="@dimen/size_medium_2"
+            android:layout_above="@+id/tv_waiting_for"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/liability"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_marginLeft="@dimen/size_small_4"
+        android:layout_marginRight="@dimen/size_small_4"
+        android:layout_marginBottom="@dimen/size_small_4"
+
+        android:gravity="bottom"
+        android:drawablePadding="5dp"
+        android:text="@string/Limitation_of_liability"
+        android:textColor="@color/red"
+        android:textSize="@dimen/size_small_6"
+        android:visibility="gone"
+
+        style="@android:color/transparent"
+        />
+
+    <FrameLayout
+        android:id="@+id/fl_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
