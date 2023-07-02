@@ -41,6 +41,14 @@
         <item name="android:shadowDy">1</item>
         <item name="android:shadowRadius">0.6</item>
     </style>
+
+    <style name="text_shadded" parent="main_text">
+        <item name="android:background">@drawable/xml_btn_gradient_black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_medium_1</item>
+    </style>
+
     <style name="text_blue" parent="main_text">
         <item name="android:textColor">@color/blue_dark_line</item>
         <item name="android:textStyle">bold</item>

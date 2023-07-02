@@ -43,6 +43,7 @@
                     android:drawablePadding="5dp"
                     android:paddingEnd="@dimen/size_medium_1_1"
                     android:paddingStart="@dimen/size_medium_1_1"
+                    android:visibility="gone"
                     android:text="A"
                     android:textSize="@dimen/size_medium_2" />
 
@@ -70,8 +71,24 @@
                     android:drawablePadding="5dp"
                     android:paddingEnd="@dimen/size_medium_1_1"
                     android:paddingStart="@dimen/size_medium_1_1"
+                    android:visibility="gone"
                     android:text="א"
                     android:textSize="@dimen/size_medium_2" />
+
+                <Button
+                    android:id="@+id/btn_donation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/size_small_2"
+                    android:layout_weight="0.3"
+                    android:drawablePadding="5dp"
+                    android:paddingEnd="@dimen/size_medium_1_1"
+                    android:paddingStart="@dimen/size_medium_1_1"
+                    android:text="@string/Donation"
+                    android:textSize="@dimen/size_medium_1"
+                    android:visibility="gone"
+                    style="@style/button_green"
+                    />
 
             </LinearLayout>
 
@@ -188,6 +205,14 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="0.6">
 
+                <!--                <mid.uicomp.PlayGifView-->
+                <!--                    android:id="@+id/fl_gif"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:layout_gravity="start"-->
+                <!--                    android:gravity="start"-->
+                <!--                    android:scaleType="fitCenter"/>-->
+
                 <VideoView
                     android:id="@+id/vv_show_card"
                     android:layout_width="wrap_content"
@@ -209,16 +234,17 @@
 
                     <TextView
                         android:id="@+id/tv_month_price"
-                        style="@style/text_normal"
-                        android:layout_width="fill_parent"
+                        style="@style/text_shadded"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/size_small_1"
-                        android:layout_weight="0.2"
-                        android:gravity="center_horizontal|center_vertical"
-                        android:text="@string/Price_normal"
-                        android:textSize="@dimen/size_medium_4"
-                        android:visibility="visible" />
 
+                        android:layout_weight="0.2"
+                        android:layout_gravity="center"
+                        android:paddingStart="@dimen/size_small_7"
+                        android:paddingEnd="@dimen/size_small_7"
+                        android:gravity="center"
+                        android:text="@string/Price_normal"
+                        android:textSize="@dimen/size_medium_4" />
 
                     <TextView
                         android:id="@+id/tv_show_mode"
@@ -236,73 +262,76 @@
 
                     <TextView
                         android:id="@+id/tv_paid_by_cash"
-                        style="@style/text_normal"
-                        android:layout_width="fill_parent"
+                        style="@style/text_shadded"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/size_small_5"
                         android:layout_weight="0.2"
-                        android:gravity="center_horizontal|center_vertical"
+                        android:paddingStart="@dimen/size_small_7"
+                        android:paddingEnd="@dimen/size_small_7"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:text="@string/Paid"
                         android:textSize="@dimen/size_medium_4" />
 
                 </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/iv_frame_out"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentStart="false"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerInParent="true"
-                    android:background="@drawable/xml_bg_frame"
-                    android:contentDescription="iv_frame_out" />
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/iv_frame_out"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:layout_alignParentStart="false"-->
+                <!--                    android:layout_alignParentLeft="true"-->
+                <!--                    android:layout_alignParentTop="true"-->
+                <!--                    android:layout_alignParentEnd="false"-->
+                <!--                    android:layout_alignParentRight="true"-->
+                <!--                    android:layout_alignParentBottom="true"-->
+                <!--                    android:layout_centerInParent="true"-->
+                <!--                    android:background="@drawable/xml_bg_frame"-->
+                <!--                    android:contentDescription="iv_frame_out" />-->
 
-                <ImageView
-                    android:id="@+id/iv_frame_center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignLeft="@+id/iv_frame_out"
-                    android:layout_alignTop="@+id/iv_frame_out"
-                    android:layout_alignRight="@+id/iv_frame_out"
-                    android:layout_alignBottom="@+id/iv_frame_out"
-                    android:layout_alignParentStart="false"
-                    android:layout_alignParentLeft="false"
-                    android:layout_alignParentTop="false"
-                    android:layout_alignParentEnd="false"
-                    android:layout_alignParentRight="false"
-                    android:layout_alignParentBottom="false"
-                    android:layout_centerInParent="true"
-                    android:layout_margin="@dimen/size_small_4"
-                    android:background="@drawable/xml_bg_frame"
-                    android:contentDescription="iv_frame_center" />
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/iv_frame_center"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:layout_alignLeft="@+id/iv_frame_out"-->
+                <!--                    android:layout_alignTop="@+id/iv_frame_out"-->
+                <!--                    android:layout_alignRight="@+id/iv_frame_out"-->
+                <!--                    android:layout_alignBottom="@+id/iv_frame_out"-->
+                <!--                    android:layout_alignParentStart="false"-->
+                <!--                    android:layout_alignParentLeft="false"-->
+                <!--                    android:layout_alignParentTop="false"-->
+                <!--                    android:layout_alignParentEnd="false"-->
+                <!--                    android:layout_alignParentRight="false"-->
+                <!--                    android:layout_alignParentBottom="false"-->
+                <!--                    android:layout_centerInParent="true"-->
+                <!--                    android:layout_margin="@dimen/size_small_4"-->
+                <!--                    android:background="@drawable/xml_bg_frame"-->
+                <!--                    android:contentDescription="iv_frame_center" />-->
 
-                <ImageView
-                    android:id="@+id/iv_frame_in"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignLeft="@+id/iv_frame_center"
-                    android:layout_alignTop="@+id/iv_frame_center"
-                    android:layout_alignRight="@+id/iv_frame_center"
-                    android:layout_alignBottom="@+id/iv_frame_center"
-                    android:layout_alignParentStart="false"
-                    android:layout_alignParentLeft="false"
-                    android:layout_alignParentTop="false"
-                    android:layout_alignParentEnd="false"
-                    android:layout_alignParentRight="false"
-                    android:layout_alignParentBottom="false"
-                    android:layout_centerInParent="true"
-                    android:layout_marginStart="@dimen/size_small_4"
-                    android:layout_marginLeft="@dimen/size_small_4"
-                    android:layout_marginTop="@dimen/size_small_4"
-                    android:layout_marginEnd="@dimen/size_small_4"
-                    android:layout_marginRight="@dimen/size_small_4"
-                    android:layout_marginBottom="@dimen/size_small_4"
-                    android:background="@drawable/xml_bg_frame"
-                    android:contentDescription="iv_frame_in" />
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/iv_frame_in"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:layout_alignLeft="@+id/iv_frame_center"-->
+                <!--                    android:layout_alignTop="@+id/iv_frame_center"-->
+                <!--                    android:layout_alignRight="@+id/iv_frame_center"-->
+                <!--                    android:layout_alignBottom="@+id/iv_frame_center"-->
+                <!--                    android:layout_alignParentStart="false"-->
+                <!--                    android:layout_alignParentLeft="false"-->
+                <!--                    android:layout_alignParentTop="false"-->
+                <!--                    android:layout_alignParentEnd="false"-->
+                <!--                    android:layout_alignParentRight="false"-->
+                <!--                    android:layout_alignParentBottom="false"-->
+                <!--                    android:layout_centerInParent="true"-->
+                <!--                    android:layout_marginStart="@dimen/size_small_4"-->
+                <!--                    android:layout_marginLeft="@dimen/size_small_4"-->
+                <!--                    android:layout_marginTop="@dimen/size_small_4"-->
+                <!--                    android:layout_marginEnd="@dimen/size_small_4"-->
+                <!--                    android:layout_marginRight="@dimen/size_small_4"-->
+                <!--                    android:layout_marginBottom="@dimen/size_small_4"-->
+                <!--                    android:background="@drawable/xml_bg_frame"-->
+                <!--                    android:contentDescription="iv_frame_in" />-->
 
             </RelativeLayout>
 
@@ -409,6 +438,19 @@
         android:layout_height="fill_parent"
         android:gravity="center"
         android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/shabbat_writing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="גוט שבת"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/size_medium_3"
+        android:textSize="@dimen/size_large_2_2"
+        android:visibility="gone"
+
         />
 
     <mid.uicomp.AutoResizeTextView
