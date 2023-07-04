@@ -83,6 +83,8 @@ dependencies {
 //graphics animations
     implementation 'com.airbnb.android:lottie:3.4.2'
 
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.6'
 
 // for more serial options -- needs to add maven { url 'https://jitpack.io' } to repositories **  also MIKVE-V3.1

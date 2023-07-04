@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuiDesign.iml" filepath="$PROJECT_DIR$/.idea/modules/GuiDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.iml" filepath="$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/GuiDesign/GuiDesign.GuiDesign.unitTest.iml" />
     </modules>
   </component>
 </project>

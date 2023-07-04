@@ -4,7 +4,7 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":GuiDesign" />
-        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.0.1" />
         <option name="LAST_KNOWN_AGP_VERSION" value="4.0.1" />
       </configuration>
     </facet>
@@ -30,71 +30,10 @@
     <output-test url="file://$MODULE_DIR$/../../../GuiDesign/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../GuiDesign">
-      <sourceFolder url="file://$MODULE_DIR$/../../../GuiDesign/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../GuiDesign/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../GuiDesign/src/main/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../GuiDesign/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../GuiDesign/src/main/res" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../GuiDesign/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../GuiDesign/build" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:shark-android:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:shark:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:shark-graph:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:shark-hprof:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:shark-log:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.72" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.2.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.ksoap2-android:ksoap2-android:3.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.ksoap2-android:ksoap2-j2se:3.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.ksoap2-android:ksoap2-base:3.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: net.sourceforge.kxml:kxml:2.2.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.xmlpull:xmlpull:1.1.3.3" level="project" />
-    <orderEntry type="library" name="Gradle: net.sourceforge.kobjects:kobjects-j2me:0.0-SNAPSHOT-20040926-2" level="project" />
-    <orderEntry type="library" name="Gradle: commons-net:commons-net:3.3" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-android:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-android-core:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:plumber-android:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.leakcanary:leakcanary-android-utils:2.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.airbnb.android:lottie:3.4.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.core:core:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.mik3y:usb-serial-for-android:3.4.2@aar" level="project" />
   </component>
 </module>

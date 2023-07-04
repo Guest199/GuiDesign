@@ -12,6 +12,10 @@
     <color name="purple">#5200A3</color>
     <color name="blue_cyan">#cfe1e5</color>
     <color name="green">#006400</color>
+    <color name="blue">#29A3CC</color>
+    <color name="lightBlue">#ADD8E6</color>
+    <color name="whiteGrey">#f2f3f5</color>
+    <color name="skyColor">#4AC0EF</color>
 
     <color name="very_light_orange">#FFD1A3</color>
 

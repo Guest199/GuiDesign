@@ -54,7 +54,7 @@
     <string name="price">Price</string>
 
     <!-- PriceZoneList -->
-<!--    <string name="name">Name</string>-->
+    <!--    <string name="name">Name</string>-->
     <string name="Days">Days</string>
     <string name="Begin_time">Begin Time</string>
     <string name="End_time">End Time</string>
@@ -89,10 +89,10 @@
 
     <!-- Settings Menu -->
     <!--    <string name="insert_any_password">Please insert any password</string>-->
-<!--    <string name="incorrect_password">Password is incorrect</string>-->
+    <!--    <string name="incorrect_password">Password is incorrect</string>-->
 
     <!-- Settings menu separators -->
-<!--    <string name="title_menu_manager_settings">Manager Settings</string>-->
+    <!--    <string name="title_menu_manager_settings">Manager Settings</string>-->
     <string name="Sum">Sum</string>
 
     <!-- Keys -->
@@ -114,7 +114,7 @@
     <string name="System_offline">ystem offline, Please check connection or restart your network devices</string>
 
     <string name="Refund_accepted">Card refund accepted</string>
-<!--    <string name="set_date">Set Date</string>-->
+    <!--    <string name="set_date">Set Date</string>-->
     <string name="paid_by_credit_card">Paid by credit:</string>
 
     <string name="card_has">Card balance:</string>
@@ -146,12 +146,12 @@
     <string name="Server_enable">Work online</string>
     <string name="Online">Online</string>
     <!--    <string name="settings_sw">SW Settings</string>-->
-<!--    <string name="settings_hardware">Hardware Settings</string>-->
-<!--    <string name="settings_debug">DEBUG settings</string>-->
-<!--    <string name="settings_printer">Printer Settings</string>-->
-<!--    <string name="settings_payment">Payment Settings</string>-->
-<!--    <string name="settings_cashless">Cashless Settings</string>-->
-<!--    <string name="settings_general">General Settings</string>-->
+    <!--    <string name="settings_hardware">Hardware Settings</string>-->
+    <!--    <string name="settings_debug">DEBUG settings</string>-->
+    <!--    <string name="settings_printer">Printer Settings</string>-->
+    <!--    <string name="settings_payment">Payment Settings</string>-->
+    <!--    <string name="settings_cashless">Cashless Settings</string>-->
+    <!--    <string name="settings_general">General Settings</string>-->
 
     <string name="Paid">Paid:</string>
     <string name="Cards">Cards</string>
@@ -227,7 +227,7 @@
     <string name="Terminal_name">Terminal name</string>
     <string name="Time">Time</string>
     <string name="Logo">LOGO</string>
-    <string name="Rev" translatable="false" >Rev</string>
+    <string name="Rev" translatable="false">Rev</string>
 
     <string name="show_card_to_change">Please tap card to change or set cards range</string>
     <string name="choose_cards_range">Choose cards range</string>
@@ -251,7 +251,7 @@
     <string name="Month">Month</string>
 
     <string name="Amount">Amount</string>
-<!--    <string name="Percent">Percent</string>-->
+    <!--    <string name="Percent">Percent</string>-->
 
     <string name="User">User</string>
 
@@ -260,10 +260,10 @@
     <string name="First_name">First name</string>
     <string name="Last_name">Last name</string>
 
-    <string name="Price_selected" >Price selected</string>
+    <string name="Price_selected">Price selected</string>
     <string name="Proceed_with_charge">Proceed with charge?</string>
-    <string name="Card_has_debt_of"  formatted="false">Card has debt of %s</string>
-    <string name="Limit_set_to"  formatted="false">Limit set to %s</string>
+    <string name="Card_has_debt_of" formatted="false">Card has debt of %s</string>
+    <string name="Limit_set_to" formatted="false">Limit set to %s</string>
 
     <string name="Receipt">Receipt</string>
     <string name="Paid_by">Paid by</string>
@@ -281,31 +281,31 @@
     <string name="Keep_change">Keep change</string>
 
     <string name="Max_change">Max change allowed</string>
-    <string name="Value_added"  >Value added</string>
-    <string name="Next_entry_on"  >Next entry on</string>
-    <string name="Menu_set_to_long_click"  >Menu set to long click</string>
-    <string name="Img_fail_import"  >Img fail import</string>
-    <string name="Second_finger" >Second finger</string>
-    <string name="Third_finger" >Third finger</string>
+    <string name="Value_added">Value added</string>
+    <string name="Next_entry_on">Next entry on</string>
+    <string name="Menu_set_to_long_click">Menu set to long click</string>
+    <string name="Img_fail_import">Img fail import</string>
+    <string name="Second_finger">Second finger</string>
+    <string name="Third_finger">Third finger</string>
     <string name="Limit_charge">Limit charge</string>
 
     <string name="Uuid" translatable="false">Uuid</string>
 
-    <string name="English"   translatable="false">English</string>
-    <string name="Hebrew"    translatable="false">עברית</string>
-    <string name="Yiddish"   translatable="false">אידיש</string>
-    <string name="set_wiegand"    translatable="false">Set wiegand</string>
-    <string name="set_j13"        translatable="false">Set j13</string>
+    <string name="English" translatable="false">English</string>
+    <string name="Hebrew" translatable="false">עברית</string>
+    <string name="Yiddish" translatable="false">אידיש</string>
+    <string name="set_wiegand" translatable="false">Set wiegand</string>
+    <string name="set_j13" translatable="false">Set j13</string>
     <string name="Max_charge_exceed" translatable="false">Max charge allowed is $200.00</string>
     <string name="set_read_mifare_block" translatable="false">Set read mifare block</string>
     <string name="Remark_commission_formatted" formatted="false">Using a Credit/Debit Card will add a %s convenience charge</string>
     <string name="Remark_selfcharge" translatable="false">Remark selfcharge</string>
-    <string name="UseGPC"           translatable="false"   >Use GPC</string>
-    <string name="GateOutput"       translatable="false"   >Gate output</string>
-    <string name="MdbOutput"       translatable="false"   >MDB output</string>
-    <string name="use_nfc"          translatable="false" >use nfc</string>
-    <string name="gpc_serial"       translatable="false" >gpc card read</string>
-    <string name="empty_register_complete"  translatable="false" >ריקון קופה בוצע בהצלחה</string>
+    <string name="UseGPC" translatable="false">Use GPC</string>
+    <string name="GateOutput" translatable="false">Gate output</string>
+    <string name="MdbOutput" translatable="false">MDB output</string>
+    <string name="use_nfc" translatable="false">use nfc</string>
+    <string name="gpc_serial" translatable="false">gpc card read</string>
+    <string name="empty_register_complete" translatable="false">ריקון קופה בוצע בהצלחה</string>
     <string name="Bill_process">Processing bill \n please wait..</string>
     <string name="Load_card_soon">Load Card Soon</string>
 
@@ -491,15 +491,15 @@
     <string name="restart_app">Restart App</string>
     <string name="system_will_restart">The system will restart after exit settings screen</string>
     <string name="finger_unrecognized">Finger detected, \n please press firmly</string>
-    <string name="Credit_currently_not_allowed"  translatable="false" >Credit currently not allowed</string>
+    <string name="Credit_currently_not_allowed" translatable="false">Credit currently not allowed</string>
 
     <string name="Limitation_of_liability" translatable="false">LIMITATION OF LIABILITY. IN NO EVENT SHALL VENDOR OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, LOST PROFITS, BUSINESS INTERRUPTION OR LOST INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF VENDOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</string>
     <string name="Wrong_fingerprint_found" translatable="false">Wrong fingerprint found</string>
     <string name="Select_months_to_fill">Select months to fill</string>
     <string name="Pay_for_year">Pay for year</string>
-<string name="Start_credit_read"  translatable="false" >Verifying credit,\n please wait...</string>
-<string name="Add_value_to_cashcard"  translatable="false" >To add value insert cash or swipe card and select amount</string>
-    <string name="Credit_try_again"  translatable="false" >Credit is busy, please try again</string>
+    <string name="Start_credit_read" translatable="false">Verifying credit,\n please wait...</string>
+    <string name="Add_value_to_cashcard" translatable="false">To add value insert cash or swipe card and select amount</string>
+    <string name="Credit_try_again" translatable="false">Credit is busy, please try again</string>
     <string name="Set_wifi" translatable="false">Set WIFI </string>
     <string name="Wifi_is_off" translatable="false">Wifi is off</string>
     <string name="Wifi_not_detected" translatable="false">Wifi not_detected</string>
@@ -509,7 +509,10 @@
     <string name="Enter_preshared_key" translatable="false">Please enter pre shared key </string>
 
 
-
+    <string name="english">English</string>
+    <string name="example_time">Thu 08:06:48 PM</string>
+    <string name="example_date">07/07/2023</string>
+    <string name="example_entry_price">Entry Price: $5.00</string>
 
 </resources>
 
