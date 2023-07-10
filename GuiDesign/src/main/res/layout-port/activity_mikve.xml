@@ -275,7 +275,10 @@
                     android:id="@+id/ll_trans_info"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:layout_margin="@dimen/size_medium_1"
+                    android:layout_marginStart="@dimen/size_medium_1"
+                    android:layout_marginTop="@dimen/size_medium_1"
+                    android:layout_marginEnd="@dimen/size_medium_1"
+                    android:layout_marginBottom="@dimen/size_medium_1"
                     android:orientation="vertical"
                     android:visibility="visible">
 
@@ -299,11 +302,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
+                        android:layout_gravity="center"
                         android:layout_weight="0.04"
+                        android:gravity="center"
                         android:paddingStart="@dimen/size_small_7"
                         android:paddingEnd="@dimen/size_small_7"
-                        android:layout_gravity="center"
-                        android:gravity="center"
                         android:text="@string/Paid"
                         android:textColor="@color/selected_row"
                         android:textSize="@dimen/size_medium_4" />

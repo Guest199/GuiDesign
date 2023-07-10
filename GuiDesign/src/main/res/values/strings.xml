@@ -513,6 +513,23 @@
     <string name="example_time">Thu 08:06:48 PM</string>
     <string name="example_date">07/07/2023</string>
     <string name="example_entry_price">Entry Price: $5.00</string>
+    <string name="placeholder_date">Tue 8/2/2023</string>
+    <string name="placeholder_time">10:58 AM</string>
+    <string name="placeholder_language">קהל נצח ישראל</string>
+    <string name="placeholder_logo_text">כ"ה אלול תשפ"ב</string>
+    <string name="add_funds">Add Funds</string>
+    <string name="options">Options</string>
+    <string name="add_towel">Add Towel</string>
+    <string name="donate">Donate</string>
+    <string name="press_for_english">Press for\n<b>English</b></string>
+    <string name="other_language">דרוקט\n<b>פאר</b></string>
+    <string name="powered_by">Distributed by: Lefkovits 718–436–8931</string>
+    <string name="online">Online</string>
+    <string name="operator_message">This is the operator message!</string>
+    <string name="commis_text">Using a Credit/Debit Card will add a 0.25  convenience charge</string>
+    <string name="cancel">Tap to cancel</string>
+    <string name="eng">En</string>
+    <string name="yid">א</string>
 
 </resources>
 
