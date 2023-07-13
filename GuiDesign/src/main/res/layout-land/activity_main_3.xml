@@ -162,7 +162,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintTop_toTopOf="@id/viewLogo"
         app:layout_constraintBottom_toBottomOf="@id/viewLogo"
-        app:layout_constraintEnd_toEndOf="@id/guidelineDetails"
+        app:layout_constraintEnd_toStartOf="@id/viewPay"
         app:layout_constraintStart_toStartOf="@id/guidelineDetailsStart"/>
 
     <ImageView
@@ -255,7 +255,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="visible"
-        app:constraint_referenced_ids="viewPay,tv_show_mode" />
+        app:constraint_referenced_ids="viewPay,tv_show_mode,ivPay" />
 
     <View
         android:id="@+id/viewPay"
@@ -263,9 +263,8 @@
         android:layout_height="0dp"
         android:alpha="0.8"
         android:background="@drawable/ic_logo_bg"
-        android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintStart_toEndOf="@id/viewDetails"
+        app:layout_constraintStart_toStartOf="@id/guidelineDetails"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/viewDetails"
         app:layout_constraintBottom_toBottomOf="@id/viewDetails"/>
