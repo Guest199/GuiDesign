@@ -3,10 +3,15 @@ package com.otot.mikve.activities;
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintSet;
 
 import com.otot.mikve.general.R;
 
@@ -14,6 +19,8 @@ public class MainActivity extends Activity {
 
 	private VideoView videoView, tapCardVideoView, swipeCardVideoView, insertCashVideoView;
 	private Uri videoUri, tapCardUri, swipeCardUri, inserCashUri;
+	private Button buttonHeb, buttonEng, buttonAlif, buttonDonation;
+	private ConstraintLayout constraintLayout;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +33,42 @@ public class MainActivity extends Activity {
 		//setContentView(R.layout.activity_main);
 		//setContentView(R.layout.activity_main_2);
 		setContentView(R.layout.activity_main_3);
+
+		buttonHeb = findViewById(R.id.btn_heb);
+		buttonEng = findViewById(R.id.btn_eng);
+		buttonAlif = findViewById(R.id.btn_yid);
+		buttonDonation = findViewById(R.id.btn_donation);
+		constraintLayout = findViewById(R.id.constraint);
+
+		// When we want to hide Donation Button
+		/*ConstraintSet constraintSet = new ConstraintSet();
+		constraintSet.clone(constraintLayout);
+		// Set the width of Button 3 to 0dp to take up the remaining space
+		constraintSet.constrainWidth(R.id.btn_yid, 0);
+		constraintSet.constrainWidth(R.id.btn_eng, 0);
+		constraintSet.constrainWidth(R.id.btn_heb, 0);
+
+		// Apply updated constraints
+		constraintSet.applyTo(constraintLayout);
+
+		// Get the existing LayoutParams
+		ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) buttonAlif.getLayoutParams();
+		// Set the margin end in pixels
+		//int marginEndPx = getResources().getDimensionPixelSize(R.dimen.your_margin_end_value);
+		layoutParams.setMarginEnd(32);
+		// Apply the updated LayoutParams
+		buttonAlif.setLayoutParams(layoutParams);*/
+
+
+		// When want to show Donation Button
+		/*ConstraintSet constraints = new ConstraintSet();
+		constraints.constrainWidth(R.id.btn_yid, ConstraintSet.WRAP_CONTENT);
+		constraints.constrainWidth(R.id.btn_eng, ConstraintSet.WRAP_CONTENT);
+		constraints.constrainWidth(R.id.btn_heb, ConstraintSet.WRAP_CONTENT);
+		constraints.constrainWidth(R.id.btn_donation, 0);
+		constraints.applyTo(constraintLayout);
+		buttonDonation.setVisibility(View.VISIBLE);*/
+
 
 
 		videoView = (VideoView) findViewById(R.id.videoView);

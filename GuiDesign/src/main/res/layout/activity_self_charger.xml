@@ -91,7 +91,7 @@
             android:gravity="center"
             android:textColor="@color/red"
             android:background="@color/yellow"
-            android:visibility="gone"
+            android:visibility="visible"
             android:textSize="@dimen/size_small_6" />
 
         <TextView
@@ -101,14 +101,14 @@
             android:gravity="center"
             android:textColor="@color/red"
             android:background="@color/yellow"
-            android:visibility="gone"
+            android:visibility="visible"
             android:textSize="@dimen/size_medium_2" />
 
         <RelativeLayout
             android:id="@+id/rl_pre_card_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"
+            android:visibility="visible"
             android:layout_weight="50"
             android:gravity="center"
             android:layout_marginStart="10dp"

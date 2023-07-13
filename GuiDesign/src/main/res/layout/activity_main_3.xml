@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -17,6 +18,7 @@
         android:visibility="gone"/>
 
     <androidx.constraintlayout.widget.Group
+        android:id="@+id/dateGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="visible"
@@ -108,6 +110,7 @@
         app:layout_constraintTop_toTopOf="@id/viewLogo" />
 
     <TextView
+        android:id="@+id/tv_company_name"
         style="@style/text_black"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -141,6 +144,7 @@
         app:layout_constraintBottom_toBottomOf="@id/btn_more" />
 
     <ImageView
+        android:id="@+id/add_towel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="-12dp"
@@ -268,6 +272,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_paid_by_cash" />-->
 
     <androidx.constraintlayout.widget.Group
+        android:id="@+id/payGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="visible"
@@ -311,6 +316,7 @@
         app:layout_constraintBottom_toTopOf="@id/btn_eng"/>
 
     <View
+        android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/video_bg"
@@ -509,6 +515,22 @@
         app:layout_constraintTop_toBottomOf="@id/btn_more" />-->
 
     <Button
+        android:id="@+id/btn_heb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="Heb"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_blue_buttons_bg"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/viewLogo"
+        app:layout_constraintEnd_toStartOf="@id/btn_eng"
+        app:layout_constraintBottom_toTopOf="@id/viewBottom"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        />
+
+    <Button
         android:id="@+id/btn_eng"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -517,9 +539,12 @@
         android:textColor="@color/white"
         android:background="@drawable/ic_blue_buttons_bg"
         android:textSize="16sp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintStart_toStartOf="@id/viewDetails"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintStart_toEndOf="@id/btn_heb"
+        app:layout_constraintEnd_toStartOf="@id/btn_yid"
         app:layout_constraintBottom_toTopOf="@id/viewBottom"
+        app:layout_constraintHorizontal_chainStyle="packed"
         tools:text="En"/>
 
     <Button
@@ -530,11 +555,13 @@
         android:text="@string/yid"
         android:textColor="@color/white"
         android:textSize="16sp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginStart="2dp"
         android:background="@drawable/ic_blue_buttons_bg"
         app:layout_constraintStart_toEndOf="@id/btn_eng"
+        app:layout_constraintEnd_toStartOf="@id/btn_donation"
         app:layout_constraintBottom_toTopOf="@id/viewBottom"
+        app:layout_constraintHorizontal_chainStyle="packed"
         tools:text="א"/>
 
 
@@ -542,8 +569,9 @@
         android:id="@+id/btn_donation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginStart="2dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/ic_blue_buttons_bg"
         android:gravity="center"
         android:textAlignment="center"
@@ -553,17 +581,19 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="16sp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@id/btn_yid"
-        app:layout_constraintEnd_toEndOf="@id/viewDetails"
-        app:layout_constraintBottom_toTopOf="@id/viewBottom" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/viewBottom"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        />
 
-    <androidx.constraintlayout.widget.Group
+    <!--<androidx.constraintlayout.widget.Group
         android:id="@+id/ll_lang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="btn_eng,btn_yid,btn_donation" />
+        app:constraint_referenced_ids="btn_eng,btn_yid,btn_donation" />-->
 
     <Button
         android:id="@+id/btnEnglish"

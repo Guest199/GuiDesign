@@ -104,7 +104,6 @@
             android:layout_marginRight="@dimen/size_small_3"
             android:layout_weight="0.5"
             android:drawableLeft="@drawable/cancel"
-            android:fontFamily="@font/assistant_bold"
             android:text="@string/Cancel"
             android:textSize="@dimen/size_medium_2" />
 

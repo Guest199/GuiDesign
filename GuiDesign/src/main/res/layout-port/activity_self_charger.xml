@@ -1,8 +1,7 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
         android:id="@+id/ll_self_charger_main"
@@ -68,6 +67,7 @@
                 android:textSize="@dimen/size_medium_1_1"
                 android:textStyle="bold"
                 android:layout_weight="0.5"
+                tools:text="Card Details Text"
                 />
 
             <TextView
@@ -81,6 +81,7 @@
                 android:textSize="@dimen/size_medium_1_1"
                 android:textStyle="bold"
                 android:layout_weight="0.5"
+                tools:text="Card Info Text"
                 />
 
         </LinearLayout>
@@ -92,8 +93,9 @@
             android:gravity="center"
             android:textColor="@color/red"
             android:background="@color/yellow"
-            android:visibility="gone"
-            android:textSize="@dimen/size_small_7" />
+            android:visibility="visible"
+            android:textSize="@dimen/size_small_7"
+            tools:text="Commis text"/>
 
         <TextView
             android:id="@+id/tv_note"
@@ -102,15 +104,16 @@
             android:gravity="center"
             android:textColor="@color/red"
             android:background="@color/yellow"
-            android:visibility="gone"
-            android:textSize="@dimen/size_small_7" />
+            android:visibility="visible"
+            android:textSize="@dimen/size_small_7"
+            tools:text="Note text"/>
 
         <LinearLayout
     android:id="@+id/ll_remark"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="@dimen/size_large_1_1"
-    android:visibility="gone"
+    android:visibility="visible"
     style="@style/text_view_rounded_corners_gradient_white">
 
     <mid.uicomp.AutoResizeTextView
@@ -131,7 +134,7 @@
             android:id="@+id/rl_pre_card_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"
+            android:visibility="visible"
             android:layout_weight="50"
             android:gravity="center"
             android:layout_marginStart="10dp"
@@ -143,16 +146,15 @@
                 android:id="@+id/iv_frame_out"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
                 android:layout_alignParentStart="false"
                 android:layout_alignParentLeft="false"
                 android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
                 android:layout_centerInParent="true"
                 android:background="@drawable/xml_bg_frame"
-                android:contentDescription=""
-                />
+                android:contentDescription="" />
 
             <ImageView
                 android:id="@+id/iv_frame_center"
@@ -437,7 +439,7 @@
                 android:layout_marginRight="@dimen/size_small_4"
                 android:layout_weight="0.5"
                 android:orientation="vertical"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <TextView
                     android:id="@+id/tv_month_price"
@@ -449,7 +451,8 @@
                     android:gravity="center"
                     android:textColor="@color/yellow"
                     android:textSize="@dimen/size_medium_4"
-                    android:visibility="gone" />
+                    android:visibility="visible"
+                    tools:text="Month Price"/>
 
 
                 <TextView
@@ -464,7 +467,7 @@
                     android:text="@string/show_card_to_save"
                     android:textColor="@color/yellow"
                     android:textSize="@dimen/size_medium_4"
-                    android:visibility="gone" />
+                    android:visibility="visible" />
 
             </LinearLayout>
 
@@ -522,7 +525,7 @@
                 android:paddingStart="@dimen/size_medium_1_1"
 
                 android:enabled="true"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:gravity="center"
                 android:text="@string/Cancel"
                 android:textSize="@dimen/size_medium_2"
@@ -546,7 +549,7 @@
                 android:paddingStart="@dimen/size_medium_1_1"
 
                 android:text="@string/save"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:gravity="center"
                 android:textSize="@dimen/size_medium_2"
                 android:layout_weight="0.3"
@@ -586,7 +589,7 @@ android:visibility="gone"
                 android:paddingEnd="@dimen/size_medium_1_1"
                 android:paddingStart="@dimen/size_medium_1_1"
 
-                android:visibility="gone"
+                android:visibility="visible"
                 android:gravity="center"
                 android:text="@string/Limit_charge"
                 android:textSize="@dimen/size_medium_2"
