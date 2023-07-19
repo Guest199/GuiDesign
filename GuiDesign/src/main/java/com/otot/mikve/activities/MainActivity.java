@@ -1,7 +1,6 @@
 package com.otot.mikve.activities;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -33,7 +32,7 @@ public class MainActivity extends Activity {
 	private Uri videoUri, tapCardUri, swipeCardUri, inserCashUri;
 	private Button buttonHeb, buttonEng, buttonAlif, buttonDonation;
 	private ConstraintLayout constraintLayout;
-
+	MediaController mediaController;
 
 
 	@Override
@@ -120,18 +119,19 @@ tvOnline    = (TextView) findViewById(R.id.tvOnline);
 
 
 
-		videoView = (VideoView) findViewById(R.id.videoView);
-		tapCardVideoView = (VideoView) findViewById(R.id.vv_tap_card);
-		swipeCardVideoView = (VideoView) findViewById(R.id.vv_swipe_cc);
-		insertCashVideoView = (VideoView) findViewById(R.id.vv_insert_cash);
-		videoUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.video);
-		tapCardUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.tapcard);
-		swipeCardUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.swipe);
-		inserCashUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.flow);
+videoView = (VideoView) findViewById(R.id.videoView);
+videoUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.video);
 
-		MediaController mediaController = new MediaController(this);
-		mediaController.setAnchorView(videoView);
-		videoView.setMediaController(mediaController);
+//tapCardVideoView = (VideoView) findViewById(R.id.vv_tap_card);
+//swipeCardVideoView = (VideoView) findViewById(R.id.vv_swipe_cc);
+//insertCashVideoView = (VideoView) findViewById(R.id.vv_insert_cash);
+//tapCardUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.tapcard);
+//swipeCardUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.swipe);
+//inserCashUri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.flow);
+
+mediaController = new MediaController(this);
+mediaController.setAnchorView(videoView);
+videoView.setMediaController(mediaController);
 
 //		MediaController mediaController1 = new MediaController(this);
 //		mediaController.setAnchorView(tapCardVideoView);
@@ -147,7 +147,7 @@ tvOnline    = (TextView) findViewById(R.id.tvOnline);
 
 		// Start playing the video
 		playVideo();
-		playOptionsVideos();
+//		playOptionsVideos();
 	}
 
 	View.OnClickListener buttonsClickListener = new View.OnClickListener() {
@@ -161,14 +161,34 @@ tvOnline    = (TextView) findViewById(R.id.tvOnline);
 				case R.id.btn_donation:       doOrientation();    break;
 				case R.id.btn_eng:       changeLang(new Locale("en" ));    break;
 				case R.id.btn_heb:       changeLang(new Locale("iw" ));    break;
-				case R.id.btn_yid:       changeLang(new Locale("ji" ));    break;
+				case R.id.btn_yid:
+//					changeLang(new Locale("ji" ));
+					doHide(flag);
+					break;
 
 			}
 		}
 	};
 
-	private void changeLang(Locale locale){
+	boolean flag = true;
 
+	private void doHide(boolean f){
+		flag = !f;
+		buttonDonation.setVisibility(f? View.VISIBLE:View.GONE );
+
+		changeConstraint(R.id.constraint,  R.id.viewPay , ConstraintSet.BOTTOM, R.id.btn_eng, ConstraintSet.TOP );
+	}
+
+	public void changeConstraint(int parent,int view , int viewSide, int ancor , int ancorSide){
+		ConstraintLayout constraintLayout = findViewById(parent);
+		ConstraintSet constraintSet = new ConstraintSet();
+		constraintSet.clone(constraintLayout);
+		constraintSet.connect(view, viewSide, ancor, ancorSide);
+		constraintSet.applyTo(constraintLayout);
+	}
+
+	private void changeLang(Locale locale){
+		stopVideo();
 L.INFO("got here : " + locale.getLanguage());
 		Configuration config = new Configuration();
 		config.locale = locale;
@@ -178,15 +198,12 @@ L.INFO("got here : " + locale.getLanguage());
 
 	}
 
-	public static int       ORIENTATION       = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
 	private void doOrientation() {
 
 		Activity activity = this;
 		int orient = HardwareInfo.getScreenOrientation(activity);
-		if ( ORIENTATION == ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED )
-			activity.setRequestedOrientation( ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE );
-		else if (orient!= ORIENTATION )
-			activity.setRequestedOrientation(ORIENTATION);
+
+		activity.setRequestedOrientation(orient == ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE ?ActivityInfo.SCREEN_ORIENTATION_PORTRAIT : ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
 	}
 
@@ -206,6 +223,19 @@ L.INFO("got here : " + locale.getLanguage());
 
 		videoView.setVideoURI(videoUri);
 		videoView.start();
+	}
+
+	private void stopVideo() {
+		videoView.setOnCompletionListener(null);
+		videoView.setVisibility(View.GONE);
+		videoView = null;
+		videoUri = null;
+		mediaController = null;
+		try {
+			Thread.sleep(1000);
+		}catch (Exception e){
+
+		}
 	}
 
 	private void playOptionsVideos() {

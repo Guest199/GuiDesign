@@ -100,18 +100,7 @@
             </intent-filter>-->
         </activity>
 
-        <receiver
-            android:name=".BootUpReceiver"
-            android:enabled="true"
-            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" /> <!-- Accept boot complete from android OS -->
-                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" /> <!-- Used to reset device on package replaced for System user upgrade -->
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
