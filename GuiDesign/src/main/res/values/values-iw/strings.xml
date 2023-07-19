@@ -513,7 +513,7 @@
     <string name="example_time">Thu 08:06:48 PM</string>
     <string name="example_date">07/07/2023</string>
     <string name="example_entry_price">Entry Price: $5.00</string>
-    <string name="placeholder_date">Tue 8/2/2023</string>
+    <string name="placeholder_date">Tue 8/2/2023</string>_coll
     <string name="placeholder_time">10:58 AM</string>
     <string name="placeholder_language">קהל נצח ישראל</string>
     <string name="placeholder_logo_text">כ"ה אלול תשפ"ב</string>

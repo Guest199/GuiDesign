@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="days_arrays_short">
+        <item name="sunday">א\'</item>
+        <item name="monday">ב\'</item>
+        <item name="tuesday">ג\'</item>
+        <item name="wednesday">ד\'</item>
+        <item name="thursday">ה\'</item>
+        <item name="friday">ו\'</item>
+        <item name="saturday">שבת</item>
+    </string-array>
+
+</resources>

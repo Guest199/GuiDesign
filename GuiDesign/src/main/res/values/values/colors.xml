@@ -12,19 +12,6 @@
     <color name="purple">#5200A3</color>
     <color name="blue_cyan">#cfe1e5</color>
     <color name="green">#006400</color>
-    <color name="blue">#29A3CC</color>
-    <color name="lightBlue">#ADD8E6</color>
-    <color name="whiteGrey">#f2f3f5</color>
-    <color name="skyColor">#4AC0EF</color>
-    <color name="lightGreen">#77ec78</color>
-    <color name="darkGreen">#55e456</color>
-    <color name="lightGrey">#b5bddf</color>
-        <color name="lightishGreen">#4cc04b</color>
-        <color name="darkishGreen">#1eb41d</color>
-    <color name="lightishBlue">#4fa8ff</color>
-    <color name="darkishBlue">#118ffe</color>
-    <color name="lightTransparent">#eff6fc</color>
-    <color name="darkTransparent">#e1edfb</color>
 
     <color name="very_light_orange">#FFD1A3</color>
 
@@ -43,10 +30,21 @@
     <color name="button_focused_color_end">#ff5689E2</color>
 
     <color name="rounded_drawble_box_stroke_color">#99999999</color>
-    <color name="greyish">#999999</color>
-
     <color name="title">#222222</color>
+
+    <color name="greyish">#999999</color>
     <color name="blackish">#464a4b</color>
+    <color name="lightGrey">#b5bddf</color>
+    <color name="darkishBlue">#118ffe</color>
+    <color name="lightishBlue">#4fa8ff</color>
+    <color name="whiteGrey">#f2f3f5</color>
+    <color name="lightGreen">#77ec78</color>
+    <color name="darkGreen">#55e456</color>
+    <color name="lightishGreen">#4cc04b</color>
+    <color name="darkishGreen">#1eb41d</color>
+    <color name="lightTransparent">#eff6fc</color>
+    <color name="darkTransparent">#e1edfb</color>
+
 
 
 

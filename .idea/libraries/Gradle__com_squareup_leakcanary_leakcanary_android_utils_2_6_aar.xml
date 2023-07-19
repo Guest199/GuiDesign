@@ -2,7 +2,6 @@
   <library name="Gradle: com.squareup.leakcanary:leakcanary-android-utils:2.6@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42684ad5dc866fea87e0db8854e82c10/jetified-leakcanary-android-utils-2.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42684ad5dc866fea87e0db8854e82c10/jetified-leakcanary-android-utils-2.6/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42684ad5dc866fea87e0db8854e82c10/jetified-leakcanary-android-utils-2.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
